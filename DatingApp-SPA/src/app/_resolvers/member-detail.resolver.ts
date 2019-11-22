@@ -6,7 +6,7 @@ import { AlertifyService } from '../_services/alertify.service';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-@Injectable() 
+@Injectable()
 
 export class MemberDetailResolver implements Resolve<User> {
     constructor(private userService: UserService,
