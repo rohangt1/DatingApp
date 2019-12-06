@@ -70,7 +70,7 @@ export class UserManagementComponent implements OnInit {
           break;
         }
       }
-      if(!isMatch) {
+      if (!isMatch) {
         availableRoles[i].checked = false;
         roles.push(availableRoles[i]);
       }
